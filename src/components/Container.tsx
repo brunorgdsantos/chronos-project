@@ -1,6 +1,5 @@
 import type React from "react";
-import "../styles/global.css";
-import "../styles/global.css";
+import styles from "../components/Container.module.css";
 
 type ContainerProps = {
   children: React.ReactNode;
@@ -8,8 +7,8 @@ type ContainerProps = {
 
 export function Container({ children }: ContainerProps) {
   return (
-    <div className="container">
-      <div className="content">{children}</div>
+    <div className={styles.container}>
+      <div className={styles.content}>{children}</div>
     </div>
   );
 }

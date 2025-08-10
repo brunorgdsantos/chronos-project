@@ -1,7 +1,10 @@
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2.4rem;
-  color: aqua;
+  max-width: 98rem;
+  background-color: brown;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: blue;
+  margin: 3.2rem;
 }
