@@ -1,9 +1,12 @@
 import "./styles/theme.css";
 import "./styles/global.css";
+import { Container } from "./components/Container";
 
 export function App() {
   return (
     <>
+      <Container children={<h1>Este é o componente Container</h1>} />
+
       <div className="container">
         <div className="content">
           <section>
@@ -17,7 +20,3 @@ export function App() {
     </>
   );
 }
-
-//Essa String (Linha 8) sera passada para props em Heading.tsx
-//export default App;
-//export { App };
