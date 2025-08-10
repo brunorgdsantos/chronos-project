@@ -22,6 +22,10 @@ body {
   margin: 0 auto;
 }
 
+.container-fluid {
+  background-color: brown;
+}
+
 .content {
   background-color: blue;
   margin: 3.2rem;
